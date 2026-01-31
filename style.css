@@ -150,9 +150,7 @@ a:hover {
 
 section {
  
-  
-    min-height: auto;
-  padding: 4rem 0;
+   padding: 4rem 0;
   margin: 0 10rem;
   box-sizing: border-box;
 }
@@ -164,12 +162,10 @@ section {
 /* PROFILE SECTION */
 
 #profile {
-  display: flex;
+display: flex;
   justify-content: center;
   gap: 5rem;
-  min-height: 80vh;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding: 6rem 0;
 }
 
 .section__pic-container {
@@ -293,7 +289,7 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 1rem;
+  bottom: 0.5rem;
 }
 
 .details-container {
@@ -476,4 +472,9 @@ footer p {
 
 section:not(:last-of-type) {
   margin-bottom: 3rem;
+}
+
+
+section + section {
+  margin-top: 2rem;
 }
